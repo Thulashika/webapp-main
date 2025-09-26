@@ -1,4 +1,5 @@
-import * as XLSX from 'xlsx';
+const XLSX = require("xlsx");
+;
 import { saveAs } from 'file-saver';
 
 export type ExportFormat = 'csv' | 'xlsx';
